@@ -12,14 +12,14 @@ spring:
 nrs:
   api:
     credentials:
-      username: DABMHQ
-      password: WTba79'!
-    baseurl: https://dashboard.360nrs.com/api/rest
+      username: username
+      password: password
+    baseurl: url
     endpoints:
       sendSms: /sms
 
 mobiweb:
   api:
     credentials:
-      username: contact@dabmsarl.com
-      password: BD2D3A65
+      username: username
+      password: password
