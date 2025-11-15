@@ -1,4 +1,4 @@
-package com.dabm.sms.exception.client;
+package com.dabm.sms.infrastructure.client.exception;
 
 public class NrsClientException extends RuntimeException {
     public NrsClientException(String message) {
