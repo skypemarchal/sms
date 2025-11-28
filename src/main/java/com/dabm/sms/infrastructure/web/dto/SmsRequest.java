@@ -1,4 +1,4 @@
-package com.dabm.sms.application.dto;
+package com.dabm.sms.infrastructure.web.dto;
 
 import lombok.Data;
 
@@ -7,4 +7,5 @@ public class SmsRequest {
     private String destinataire;
     private String senderId;
     private String message;
+    private String phone;
 }
