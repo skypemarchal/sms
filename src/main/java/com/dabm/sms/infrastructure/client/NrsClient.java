@@ -1,8 +1,8 @@
-package com.dabm.sms.client;
+package com.dabm.sms.infrastructure.client;
 
-import com.dabm.sms.client.request.NrsSmsRequest;
-import com.dabm.sms.exception.client.NrsClientException;
-import com.dabm.sms.util.Base64Encoder;
+import com.dabm.sms.infrastructure.client.request.NrsSmsRequest;
+import com.dabm.sms.infrastructure.client.exception.NrsClientException;
+import com.dabm.sms.infrastructure.client.util.Base64Encoder;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.stereotype.Component;

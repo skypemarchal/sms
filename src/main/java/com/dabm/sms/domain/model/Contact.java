@@ -1,4 +1,4 @@
-package com.dabm.sms.model;
+package com.dabm.sms.domain.model;
 
 import lombok.Getter;
 import lombok.Setter;

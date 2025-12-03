@@ -1,4 +1,4 @@
-package com.dabm.sms.client.request;
+package com.dabm.sms.infrastructure.client.request;
 
 import lombok.Getter;
 import lombok.Setter;

@@ -1,8 +1,8 @@
-package com.dabm.sms.controller;
+package com.dabm.sms.infrastructure.web.controller;
 
-import com.dabm.sms.domain.SmsRequest;
-import com.dabm.sms.model.Message;
-import com.dabm.sms.service.MessageService;
+import com.dabm.sms.application.dto.SmsRequest;
+import com.dabm.sms.domain.model.Message;
+import com.dabm.sms.application.service.MessageService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Mono;

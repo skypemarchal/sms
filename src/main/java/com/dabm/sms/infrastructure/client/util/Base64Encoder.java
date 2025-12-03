@@ -1,4 +1,4 @@
-package com.dabm.sms.util;
+package com.dabm.sms.infrastructure.client.util;
 
 import java.util.Base64;
 

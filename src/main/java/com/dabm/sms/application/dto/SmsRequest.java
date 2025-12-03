@@ -1,4 +1,4 @@
-package com.dabm.sms.domain;
+package com.dabm.sms.application.dto;
 
 import lombok.Data;
 

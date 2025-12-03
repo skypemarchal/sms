@@ -1,12 +1,12 @@
-package com.dabm.sms.service.impl;
+package com.dabm.sms.application.service.impl;
 
-import com.dabm.sms.client.NrsClient;
-import com.dabm.sms.client.request.NrsSmsRequest;
-import com.dabm.sms.domain.SmsRequest;
-import com.dabm.sms.model.Contact;
-import com.dabm.sms.model.Message;
-import com.dabm.sms.repository.MessageRepository;
-import com.dabm.sms.service.MessageService;
+import com.dabm.sms.infrastructure.client.NrsClient;
+import com.dabm.sms.infrastructure.client.request.NrsSmsRequest;
+import com.dabm.sms.application.dto.SmsRequest;
+import com.dabm.sms.domain.model.Contact;
+import com.dabm.sms.domain.model.Message;
+import com.dabm.sms.domain.repository.MessageRepository;
+import com.dabm.sms.application.service.MessageService;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Mono;
 
